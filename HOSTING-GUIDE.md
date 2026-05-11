@@ -271,6 +271,11 @@ git remote add origin https://github.com/andhikalalu-cyber/nihongo-course-larave
 git push -u origin main
 ```
 
+**Error "src refspec main does not match"? Coba:**
+```bash
+git push -u origin master
+```
+
 ---
 
 ## Cara Alternatif: Upload via Browser (Tanpa Git Command/Paling Mudah!)
