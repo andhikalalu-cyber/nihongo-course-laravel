@@ -241,10 +241,23 @@ git remote add origin https://github.com/andhikalalu-cyber/nihongo-course-larave
 git push -u origin main
 ```
 
-### Error "Repository not found":
-**ARTINYA: REPOSITORY BELUM DI BUAT DI GITHUB!**
+### Error "Repository not found" + "remote origin already exists":
+**ARTINYA: REPOSITORY DI GITHUB TIDAK ADA!**
 
-Buka https://github.com dan BUAT REPOSITORY DULU dengan nama: `nihongo-course-laravel`
+**LANGKAH PENTING - HAPUS REMOTE LAMA DULU:**
+```bash
+cd C:\Users\andik\Desktop\japanese-course-laravel\laravel
+git remote remove origin
+```
+
+**KEMUDIAN - BUAT REPOSITORY DI GITHUB!**
+1. Buka https://github.com
+2. Klik **"+ New repository"**
+3. Isi: `nihongo-course-laravel` (huruf kecil!)
+4. **JANGAN centang** README/.gitignore
+5. Klik **Create repository**
+
+**SETELAH ITU, BARU BISA PUSH!**
 
 ### Error "Repository not found":
 **Ini berarti repository BELUM Dibuat di GitHub!**
