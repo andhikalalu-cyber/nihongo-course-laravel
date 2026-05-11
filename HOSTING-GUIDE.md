@@ -82,7 +82,7 @@ git add .
 git commit -m "Add caching optimization"
 
 # Ganti USERNAME dengan username GitHub Anda:
-git remote add origin https://github.com/andhikalalu-cyber/nihongo-course-laravel.git
+git remote add origin https://github.com/laluandhika/nihongo-course-laravel.git
 git push -u origin main
 ```
 
@@ -91,7 +91,7 @@ git push -u origin main
 # Hapus remote origin dulu:
 git remote remove origin
 # Lalu tambahkan lagi:
-git remote add origin https://github.com/andhikalalu-cyber/nihongo-course-laravel.git
+git remote add origin https://github.com/laluandhika/nihongo-course-laravel.git
 ```
 
 ---
