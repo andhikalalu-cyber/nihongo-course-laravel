@@ -242,6 +242,11 @@ git push -u origin main
 ```
 
 ### Error "Repository not found":
+**ARTINYA: REPOSITORY BELUM DI BUAT DI GITHUB!**
+
+Buka https://github.com dan BUAT REPOSITORY DULU dengan nama: `nihongo-course-laravel`
+
+### Error "Repository not found":
 **Ini berarti repository BELUM Dibuat di GitHub!**
 
 Silakan IKUTI LANGKAH DIBAWAH ini dengan sangat teliti:
