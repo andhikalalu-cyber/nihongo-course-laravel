@@ -1,8 +1,5 @@
 {
   "$schema": "https://railway.app/railway.schema.json",
-  "build": {
-    "buildCommand": "composer install --no-interaction --prefer-dist && php artisan key:generate"
-  },
   "deploy": {
     "numReplicas": 1,
     "restartPolicyType": "ON_FAILURE",
